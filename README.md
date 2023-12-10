@@ -31,14 +31,14 @@ The journey begins with an overview of Redis, followed by miscellaneous concepts
 ### Overview
 
 - [Intro to the Course](overview/overview-1-intro-to-course.md)
-- [Intro to Redis](overview/overview-2-intro-to-redis)
-- [Why Redis?](overview/overview-3-why-redis)
-- [Hello World](overview/overview-4-hello-world)
-- [Common Operations](overview/overview-5-common-operations)
-- [Redis Keyname Convention](overview/overview-6-redis-keyname-convention)
-- [Expiring Keys](overview/overview-7-expiring-keys)
-- [How Expiring Keys Work](overview/overview-8-how-expiring-keys-work)
-- [Connecting with Node](overview/overview-9-connecting-with-node)
+- [Intro to Redis](overview/overview-2-intro-to-redis.md)
+- [Why Redis?](overview/overview-3-why-redis.md)
+- [Hello World](overview/overview-4-hello-world.md)
+- [Common Operations](overview/overview-5-common-operations.md)
+- [Redis Keyname Convention](overview/overview-6-redis-keyname-convention.md)
+- [Expiring Keys](overview/overview-7-expiring-keys.md)
+- [How Expiring Keys Work](overview/overview-8-how-expiring-keys-work.md)
+- [Connecting with Node](overview/overview-9-connecting-with-node.md)
 
 ### Miscellaneous Concepts
 

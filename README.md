@@ -1,5 +1,6 @@
-![image](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/8cce383a-17da-4392-942f-2059b15b8b66)
 <h1 align="center">Redis Caching with Node.js</h1>
+
+![image](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/8cce383a-17da-4392-942f-2059b15b8b66)
 
 This repository contains code and materials for learning Redis caching concepts with Node.js. The learning journey is structured based on a set of cool materials covering an overview of Redis, miscellaneous concepts, and practical projects.
 

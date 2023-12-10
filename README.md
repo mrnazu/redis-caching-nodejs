@@ -30,7 +30,7 @@ The journey begins with an overview of Redis, followed by miscellaneous concepts
 
 ### Overview
 
-- [Intro to the Course](overview/overview-1-intro-to-course)
+- [Intro to the Course](overview/overview-1-intro-to-course.md)
 - [Intro to Redis](overview/overview-2-intro-to-redis)
 - [Why Redis?](overview/overview-3-why-redis)
 - [Hello World](overview/overview-4-hello-world)

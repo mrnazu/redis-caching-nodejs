@@ -54,6 +54,7 @@ This will open the Redis command-line interface. You can test basic commands suc
 set mykey "Hello, Redis!"
 get mykey
 ```
+![redis-servr](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/b84a756a-c910-443c-8bcb-e1829b141ad1)
 
 You should see the output "Hello, Redis!" after running the `get mykey` command.
 

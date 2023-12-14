@@ -23,13 +23,15 @@ The foundation of Redis revolves around key-value pairs. The `SET` command is us
 SET mykey "Hello, Redis!"
 GET mykey
 ```
+![redis-servr](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/70ab63d5-bb51-4cb7-b05b-d241b5b63b46)
+
 
 Try these `commands` in the Redis CLI and see how you can store and retrieve values.
 
 
 Remember, In the context of Redis, the operations you perform are typically referred to as `commands`. Redis has a set of commands that you can use to interact with the data store. Each command is a specific operation that you can execute on the Redis server to perform actions like `setting a value`, `retrieving a value`, `working with lists or sets`, and more...
 
-So, when we I "Redis commands," I mean the set of actions or operations that you can perform using the Redis Command Line Interface (CLI) or programmatically through the Redis API. Each command usually consists of a keyword followed by arguments that define the specifics of the operation.
+So, when I say "Redis commands," I mean the set of actions or operations that you can perform using the Redis Command Line Interface (CLI) or programmatically through the Redis API. Each command usually consists of a keyword followed by arguments that define the specifics of the operation.
 
 
 ## Strings, Lists, and Sets
@@ -73,6 +75,8 @@ Redis supports various data types, including strings, lists, sets and so on... E
   ```bash
   LRANGE mylist 0 -1
   ```
+  ![redis-list](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/c749e328-cfd8-4610-ab3e-b1b8143a0764)
+  
   This retrieves all elements from the list stored at the key "mylist."
 
 ### Sets:
@@ -87,6 +91,8 @@ Redis supports various data types, including strings, lists, sets and so on... E
   ```bash
   SMEMBERS myset
   ```
+  ![redis-set](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/1d919e43-8385-4561-a72f-e1f5c435997b)
+
   This retrieves all members of the set stored at the key "myset."
 
 These commands are fundamental for working with strings, lists, and sets in Redis. They allow you to perform actions such as setting and retrieving values, manipulating lists, and managing sets of unique elements.

@@ -71,3 +71,41 @@ Let's break down each part of the example:
    Similarly, this `BITCOUNT` command is used with a range specified as 1 to 1, counting the set bits in the second bit of the binary representation, resulting in 6 set bits.
 
 In summary, the `BITCOUNT` command in this context is used to analyze the binary representation of the string value "foobar" and count the number of set bits in the entire value or within specific ranges. This can be useful for various applications such as bit-level manipulations or counting specific patterns in binary data.
+
+
+Redis supports a variety of commands for interacting with its data store. Here are some common Redis operations grouped by functionality:
+
+
+### **Hash Operations:**
+
+- **HSET key field value:** Set the value of a hash field.
+
+  Example:
+  ```bash
+  HSET myhash field1 "value1"
+  ```
+
+- **HGET key field:** Retrieve the value of a hash field.
+
+  Example:
+  ```bash
+  HGET myhash field1
+  ```
+
+### **Other Operations:**
+
+- **FLUSHALL:** Remove all keys from all databases.
+
+  Example:
+  ```bash
+  FLUSHALL
+  ```
+
+- **KEYS pattern:** Get all keys matching a pattern.
+
+  Example:
+  ```bash
+  KEYS *
+  ```
+
+These are just a few examples of common Redis operations. Redis provides a rich set of commands that cover various data structures and functionalities. Depending on your use case, you may explore more advanced commands and features that Redis offers.

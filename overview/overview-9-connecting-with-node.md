@@ -20,30 +20,26 @@ Now, let's discuss how to connect Node.js with Redis. You can use the `redis` li
 
 2. **Use the library in your Node.js code:**
 
-   ```javascript
-   const redis = require('redis');
+```javascript
+const redis = require('redis');
 
-   // Create a Redis client
-   const client = redis.createClient({
-     host: 'your-redis-host', // Replace with your Redis server host
-     port: 6379,                // Replace with your Redis server port
-     // Add other configuration options if needed
-   });
+// Create a Redis client
+const client = redis.createClient({
+  host: 'localhost',
+  port: 6379,
+});
 
-   // Example: Set a key-value pair
-   client.set('example_key', 'example_value', (err, reply) => {
-     if (err) {
-       console.error(err);
-     } else {
-       console.log('Key set successfully:', reply);
-     }
+// Example: Set a key-value pair
+client.set('myKey', 'overview-9', (err, reply) => {
+  if (err) {
+    console.error(err);
+  } else {
+    console.log('Key set successfully:', reply);
+  }
 
-     // Close the Redis connection (in a real-world scenario, you would typically keep the connection open)
-     client.quit();
-   });
-   ```
-
-   Ensure that you replace `'your-redis-host'` and `6379` with the actual host and port of your Redis server.
+  client.quit();
+});
+```
 
 3. **Handling Errors and Events:**
    It's essential to handle errors and listen to events to ensure robust communication with Redis. For example:

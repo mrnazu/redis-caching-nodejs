@@ -10,12 +10,15 @@ Here are some key points about expiring keys in Redis:
      EXPIRE mykey 60
      ```
      This sets the key "mykey" to expire in 60 seconds.
+     ![image](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/d171935f-d453-4bb5-87ae-5d1ed2840414)
+
 
 2. **Using TTL (Time To Live):**
    - You can check the remaining time for a key to expire using the `TTL` command. It returns the time in seconds.
      ```
      TTL mykey
      ```
+     ![image](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/377052e6-1d7e-4a2c-b0da-b2e92fd29d13)
 
 3. **Setting Expiration During Key Creation:**
    - When setting a key-value pair, you can include the expiration time in the same command. For example:

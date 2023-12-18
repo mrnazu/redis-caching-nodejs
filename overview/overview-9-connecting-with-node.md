@@ -16,6 +16,7 @@ Now, let's discuss how to connect Node.js with Redis. You can use the `redis` li
    ```bash
    npm install redis
    ```
+![node-w-redis](https://github.com/mrnazu/redis-caching-nodejs/assets/108541991/02b0803d-c19d-454a-873a-367fd6d6dbaa)
 
 2. **Use the library in your Node.js code:**
 
